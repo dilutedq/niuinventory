@@ -1,8 +1,9 @@
 set :application, "NIU Inventory"
-set :repository,  "ssh://dougquesnel.com/niuinventory.git"
+set :repository,  "ssh://doug@dougquesnel.com/niuinventory.git"
 set :scm, :git
-set :deploy, "/var/www"
+set :deploy_to, "/var/www"
 set :user, "doug"
+set :scm_username, "doug"
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 role :web, "dougquesnel.com"                          # Your HTTP server, Apache/etc
