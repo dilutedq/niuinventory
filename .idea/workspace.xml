@@ -5,6 +5,7 @@
     <ignored path="niuinventory.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/deploy.rb" changelist="c67eacf4-aed1-4891-adfd-f5efc749a2ae" time="1367508507674" ignored="false" />
+    <file path="/.gitignore" changelist="c67eacf4-aed1-4891-adfd-f5efc749a2ae" time="1367510453785" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +66,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="57" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.47445256">
+            <state line="26" column="57" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="6" selection-start="329" selection-end="329" vertical-scroll-proportion="0.1459854">
               <folding />
             </state>
           </provider>
@@ -85,6 +95,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -387,7 +398,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.47445256">
+        <state line="26" column="57" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="329" selection-end="329" vertical-scroll-proportion="0.1459854">
           <folding />
         </state>
       </provider>
