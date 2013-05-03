@@ -1,9 +1,14 @@
 set :application, "NIU Inventory"
-set :repository,  "ssh://doug@dougquesnel.com/niuinventory.git"
+set :repository,  "git@github.com:dilutedq/niuinventory.git"
 set :scm, :git
-set :deploy_to, "/var/www"
+set :deploy_to, "/var/www/niuinventory"
 set :user, "doug"
-set :scm_username, "doug"
+
+set :branch, "master"
+set :default_environment, {
+    'PATH' => "$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
+}
+default_run_options[:pty] = true
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 role :web, "dougquesnel.com"                          # Your HTTP server, Apache/etc
